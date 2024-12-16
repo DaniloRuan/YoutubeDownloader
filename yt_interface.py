@@ -15,8 +15,7 @@ def janela():
 
         print(f"A url inserida e: {valor_url}")
 
-        #testando lista
-    
+
     #iniciando interface
     janela = Tk()
     janela.title("Youtube Downloader")
@@ -29,8 +28,8 @@ def janela():
     titulo.pack()
 
     #valor para introduzir a URL
-    url = Entry(janela, font=("arial", 12), width=10)
-    url.pack()
+    url = Entry(janela, font=("arial", 11), width=40)
+    url.pack(pady=10)
 
     #escolhei a resolucao
 
