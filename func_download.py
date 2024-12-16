@@ -13,7 +13,7 @@ def download_vid(url):
 
     #escolhendo resolucao
 
-    donwload_format = donwload.streams.filter(progressive=True, file_extension="mp4", res="1080p").first()
+    donwload_format = donwload.streams.filter(progressive=True, file_extension="mp4",).first()
 
     donwload_video = donwload_format.download()
 
