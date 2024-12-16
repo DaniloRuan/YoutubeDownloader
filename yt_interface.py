@@ -12,6 +12,7 @@ def janela():
         valor_url = url.get()
 
         download_vid(url=valor_url)
+
         print(f"A url inserida e: {valor_url}")
 
         #testando lista
@@ -20,6 +21,7 @@ def janela():
     janela = Tk()
     janela.title("Youtube Downloader")
     janela.geometry("400x300")
+    janela.resizable(False, False)
 
 
     #titulo
